@@ -9,7 +9,7 @@ Para que no me olviden las cosas en git+github
 `git diff`
 
 ### Definiciones
-`origin` == el repo de donde clonaste el repo -> tu cpu
+`origin` == el repo de donde clonaste el repo -> tu cpu  
 `remote` == el repo en git que no está en tu cpu -> en github)
 
 ## Clonar un repo al cpu local
