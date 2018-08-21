@@ -1,6 +1,6 @@
 # Git Cheat Sheet
 
-Un pequeño repo para que no se me olvide cómo hacer qué (y por si se me pierde el cuaderno)
+Para que no me olviden las cosas en git+github
 
 ## Clonar un repo al cpu local
 
