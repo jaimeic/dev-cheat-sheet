@@ -2,6 +2,16 @@
 
 Para que no me olviden las cosas en git+github
 
+## Git básico
+
+`git --help` 
+`git status`
+`git diff`
+
+### Definiciones
+`origin` == el repo de donde clonaste el repo -> tu cpu
+`remote` == el repo en git que no está en tu cpu -> en github)
+
 ## Clonar un repo al cpu local
 
 1) En la terminal ir al directorio done quieras que esté el código
