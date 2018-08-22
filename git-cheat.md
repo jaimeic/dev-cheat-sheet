@@ -10,7 +10,7 @@ Para que no me olviden las cosas en git+github
 
 ### Definiciones
 `origin` == el repo de donde clonaste el repo -> tu cpu  
-`remote` == el repo en git que no está en tu cpu -> en github)
+`remote` == el repo en git que no está en tu cpu -> en github
 
 ## Clonar un repo al cpu local
 
