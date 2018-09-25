@@ -61,7 +61,7 @@ Para que no me olviden las cosas en git+github
 1) Checkout todos los cambios primero y muevete al master: `git fetch && git checkout master`
 2) Borra branch-nuevo: localmente `git branch -D branch-nuevo` y en github `git push --delete origin branch-nuevo`
 
-### going back a un commit en especifico y fast forwarding al upstream master
+### Going back a un commit en especifico y fast forwarding al upstream master
 1) `git fetch upstream`
 2) `git log`
 3) `git reset --hard <commit SHA>`
