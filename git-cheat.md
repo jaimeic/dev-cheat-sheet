@@ -25,7 +25,7 @@ Para que no me olviden las cosas en git+github
 1) En la terminal, ve al cloned fork repo
 2) Dale a `git remote -v` para listar los remote repos configurados a tu fork
 3) Especifica un nuevo remote upstream repo que tu fork mira `git remote add upstream https://github.com/$ORG/$REPO.git`
-4) Verifica que se seteó correctamente corriendo `git remote -v` otra vez (deben haber dos remotes con origin para el fork y dos remotes para el upstream en el repo original de la organización
+4) Verifica que se seteó correctamente corriendo `git remote -v` otra vez (deben haber dos remotes con origin para el fork y dos remotes para el upstream en el repo original de la organización)
 
 
 ## Commiting al fork
