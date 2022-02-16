@@ -33,12 +33,10 @@ Cuando vayas a correr cualquier comando de git que necesite la autenticación, u
 `origin` == el repo de donde clonaste el repo -> tu cpu  
 `remote` == el repo en git que no está en tu cpu -> en github
 
-
 ## Clonar un repo al cpu local
 
 1) En la terminal ir al directorio done quieras que esté el código
 2) `git clone <repo_url>` (ej: `git clone https://github.com/$ORG/$REPO.git` o mejor con un fork `git clone https://github.com/$TU_USER/$REPO.git`)
-
 
 ## Configurar un remote al fork
 
@@ -47,18 +45,15 @@ Cuando vayas a correr cualquier comando de git que necesite la autenticación, u
 3) Especifica un nuevo remote upstream repo que tu fork mira `git remote add upstream https://github.com/$ORG/$REPO.git`
 4) Verifica que se seteó correctamente corriendo `git remote -v` otra vez (deben haber dos remotes con origin para el fork y dos remotes para el upstream en el repo original de la organización)
 
-
 ## Commiting al fork
 
 1) `git add <file>`
 2) `git commit -m 'mensage'`
 3) `git push`
 
-
 ## Update los archivos locales (del fork)
 
 `git pull` O `git fetch && git checkout master`
-
 
 ## Update el fork al repo original (upstream)
 
@@ -67,6 +62,7 @@ Cuando vayas a correr cualquier comando de git que necesite la autenticación, u
 3) `git rebase upstream/master`
 4) `git push -f origin master`
 
+La otra forma mas riesgosa pero efectiva `git reset --hard upstream/master`
 
 ## Branches (features)
 
@@ -87,7 +83,6 @@ Cuando vayas a correr cualquier comando de git que necesite la autenticación, u
 2) `git log`
 3) `git reset --hard <commit SHA>`
 4) `git pull -ff upstream master`
-
 
 ## Reverting a un commit en específico (aveces uno la caga)
 
