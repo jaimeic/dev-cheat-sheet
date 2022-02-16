@@ -166,3 +166,5 @@ alias nicesops="sops secrets.enc.yaml"
 
 # kubernetes
 alias k="kubectl"
+
+# extra alias
