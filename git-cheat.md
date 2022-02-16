@@ -96,7 +96,16 @@ Cuando vayas a correr cualquier comando de git que necesite la autenticación, u
 
 ## Colaborar con los forks de otros
 
-1) Agrega el el fork de la otra persona a tu remote: `git remote add $NOMBRE_REMOTE https://github.com/$FORK/$REPO.git`
-2) Haz un fetch para agarrar todos los branches del remote: `git fetch $NOMBRE_REMOTE`
-3) Crea un branch que trackee el branch del remote: `git checkout -b $BRANCH $NOMBRE_REMOTE/$BRANCH`
+1) Agrega el el fork de la otra persona a tu remote: 
+```
+ git remote add $NOMBRE_REMOTE https://github.com/$FORK/$REPO.git
+```
+2) Haz un fetch para agarrar todos los branches del remote:
+```
+git fetch $NOMBRE_REMOTE
+```
+3) Crea un branch que trackee el branch del remote
+```
+git checkout -b $BRANCH $NOMBRE_REMOTE/$BRANCH
+```
 3) Haz toda la danza de `git add`, `git commit`, y `git push` a este branch del colega
