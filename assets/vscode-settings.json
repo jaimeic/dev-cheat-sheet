@@ -1,4 +1,6 @@
 {
+    "editor.fontSize": 14,
+    "terminal.integrated.fontSize": 12,
     "workbench.colorTheme": "Dracula",
     "window.zoomLevel": 1,
     "terminal.integrated.inheritEnv": false,
