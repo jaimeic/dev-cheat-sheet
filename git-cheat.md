@@ -2,6 +2,25 @@
 
 Para que no me olviden las cosas en git+github
 
+## Configurar git en la máquina
+
+### Crear Personal Access Token
+
+1) Ve a los settings de tu cuenta de GitHub
+2) En settings, ve a `settings > developer settings`
+3) Ve a la opción de `create new personal access token`
+4) Agrega los permisos de `repo` y `workflow`
+5) Crea el token y guardalo a algun lado porque sino lo pierdes
+
+### Autenticar tu máquina con GitHub
+Corre los siguientes comandos en la terminal:
+```
+$ git config --global user.name "jaimeic"
+$ git config --global user.email "jaimeicastror@gmail.com"
+$ git config -l
+```
+
+Cuando vayas a correr cualquier comando de git que necesite la autenticación, usa el `personal access token` que ya habías sacado como el `password`
 
 ## Git básico
 
@@ -10,6 +29,7 @@ Para que no me olviden las cosas en git+github
 `git diff`
 
 ### Definiciones
+
 `origin` == el repo de donde clonaste el repo -> tu cpu  
 `remote` == el repo en git que no está en tu cpu -> en github
 
@@ -62,6 +82,7 @@ Para que no me olviden las cosas en git+github
 2) Borra branch-nuevo: localmente `git branch -D branch-nuevo` y en github `git push --delete origin branch-nuevo`
 
 ### Going back a un commit en especifico y fast forwarding al upstream master
+
 1) `git fetch upstream`
 2) `git log`
 3) `git reset --hard <commit SHA>`
@@ -69,5 +90,13 @@ Para que no me olviden las cosas en git+github
 
 
 ## Reverting a un commit en específico (aveces uno la caga)
+
 1) `git reflog`
 2) `git push origin +<commit SHA>:master`
+
+## Colaborar con los forks de otros
+
+1) Agrega el el fork de la otra persona a tu remote: `git remote add $NOMBRE_REMOTE https://github.com/$FORK/$REPO.git`
+2) Haz un fetch para agarrar todos los branches del remote: `git fetch $NOMBRE_REMOTE`
+3) Crea un branch que trackee el branch del remote: `git checkout -b $BRANCH $NOMBRE_REMOTE/$BRANCH`
+3) Haz toda la danza de `git add`, `git commit`, y `git push` a este branch del colega
