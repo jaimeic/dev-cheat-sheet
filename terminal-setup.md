@@ -45,4 +45,25 @@ Para bajar `fig` toca ir a su [página](https://fig.io/) y bajar el paquete de a
 
 ## Configure the terminal
 
+### oh-my-zsh themes
+
+El theme de zsh se puede cambiar dependiendo de lo que te guste (colores, interfaz, iconos, etc). Toca modificar el archive `.zshrc`
+```
+$ nano ~/.zshrc
+```
+
+Por defecto, `oh-my-zsh` viene con un tema que se llama `robbyrussell`, pero se puede cambiar ajustando la variable:
+```
+ZSH_THEME="robbyrussell"
+```
+
+Esta es la lista de todos los [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes), y tambien estan en el dir:
+```
+$ cd ~/.oh-my-zsh/themes
+```
+
+## Configure VS Code
+
+
+
 [^0]: https://github.com/Chompas/iterm-prezto
