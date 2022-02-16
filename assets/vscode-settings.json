@@ -1,0 +1,12 @@
+{
+    "workbench.colorTheme": "Dracula",
+    "window.zoomLevel": 1,
+    "terminal.integrated.inheritEnv": false,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
+}
