@@ -62,6 +62,21 @@ Esta es la lista de todos los [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/T
 $ cd ~/.oh-my-zsh/themes
 ```
 
+### Configure Plugins
+
+Agrega el `zsh-syntax-highlighting` para que se ponga verde el texto del terminal cuando encuentre el paquete. Para instalarlo haz clone a este repo:
+```
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+```
+
+Y despues agrega el plugin al archivo de `~/.zshrc`:
+```
+plugins=(
+  git
+  zsh-syntax-highlighting
+)
+```
+
 ## Configure VS Code
 
 
