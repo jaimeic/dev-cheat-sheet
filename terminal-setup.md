@@ -62,7 +62,7 @@ Esta es la lista de todos los [themes](https://github.com/ohmyzsh/ohmyzsh/wiki/T
 $ cd ~/.oh-my-zsh/themes
 ```
 
-### Configure Plugins
+### Configure [Plugins](https://ivanaugustobd.medium.com/your-terminal-can-be-much-much-more-productive-5256424658e8)
 
 Agrega el `zsh-syntax-highlighting` para que se ponga verde el texto del terminal cuando encuentre el paquete. Para instalarlo haz clone a este repo:
 ```
