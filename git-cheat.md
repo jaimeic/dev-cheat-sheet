@@ -62,7 +62,11 @@ Cuando vayas a correr cualquier comando de git que necesite la autenticación, u
 3) `git rebase upstream/master`
 4) `git push -f origin master`
 
-La otra forma mas riesgosa pero efectiva `git reset --hard upstream/master`
+La otra forma mas riesgosa pero efectiva: `git reset --hard upstream/master`
+1) `git fetch upstream`
+2) `git checkout master`
+3) `git reset --hard upstream/master`
+4) `git push -f origin master`
 
 ## Branches (features)
 
