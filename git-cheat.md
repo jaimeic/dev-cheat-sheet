@@ -15,9 +15,9 @@ Para que no me olviden las cosas en git+github
 ### Autenticar tu máquina con GitHub
 Corre los siguientes comandos en la terminal:
 ```
-$ git config --global user.name "jaimeic"
-$ git config --global user.email "jaimeicastror@gmail.com"
-$ git config -l
+git config --global user.name "jaimeic"
+git config --global user.email "jaimeicastror@gmail.com"
+git config -l
 ```
 
 Cuando vayas a correr cualquier comando de git que necesite la autenticación, usa el `personal access token` que ya habías sacado como el `password`
